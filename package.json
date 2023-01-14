@@ -1,0 +1,24 @@
+{
+  "name": "serverless",
+  "version": "1.0.0",
+  "description": "A curated a list of serverless functions used by SLIIT-FOSS",
+  "scripts": {
+    "lint": "eslint ./api/**/*.{js,ts}",
+    "format": "prettier --write \"**/*.{js,md}\"",
+    "prepare": "husky install"
+  },
+  "keywords": [],
+  "author": "SLIIT-FOSS",
+  "license": "MIT",
+  "dependencies": {
+    "github-leaderboard-npm-package": "1.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "7.20.12",
+    "@babel/eslint-parser": "7.19.1",
+    "eslint": "8.31.0",
+    "husky": "8.0.2",
+    "prettier": "2.7.1",
+    "vercel": "28.12.4"
+  }
+}
