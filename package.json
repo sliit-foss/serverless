@@ -11,7 +11,7 @@
   "author": "SLIIT-FOSS",
   "license": "MIT",
   "dependencies": {
-    "github-leaderboard-npm-package": "1.0.3"
+    "@sliit-foss/leaderboard": "1.0.3"
   },
   "devDependencies": {
     "@babel/core": "7.20.12",
@@ -19,6 +19,6 @@
     "eslint": "8.31.0",
     "husky": "8.0.2",
     "prettier": "2.7.1",
-    "vercel": "28.12.4"
+    "vercel": "28.15.2"
   }
 }
