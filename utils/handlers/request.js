@@ -1,8 +1,6 @@
-import allowCors from '../cors'
 import responseHandler from './response'
 
 const requestHandler = ([req, res], methods) => {
-  allowCors(req, res)
   if (!methods[req.method]) return responseHandler({ res, status: 405, message: 'Method not allowed' })
   return methods[req.method](req, res).catch((err) => {
     console.error('Internal server error', err)
