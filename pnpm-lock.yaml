@@ -5,7 +5,7 @@ specifiers:
   '@babel/eslint-parser': 7.19.1
   '@sliit-foss/functions': 2.0.1
   '@sliit-foss/leaderboard': 1.0.3
-  '@sliit-foss/module-logger': 1.1.2
+  '@sliit-foss/module-logger': 1.1.3
   eslint: 8.31.0
   husky: 8.0.2
   prettier: 2.7.1
@@ -14,7 +14,7 @@ specifiers:
 dependencies:
   '@sliit-foss/functions': 2.0.1
   '@sliit-foss/leaderboard': 1.0.3
-  '@sliit-foss/module-logger': 1.1.2
+  '@sliit-foss/module-logger': 1.1.3
 
 devDependencies:
   '@babel/core': 7.20.12
@@ -427,6 +427,14 @@ packages:
 
   /@sliit-foss/module-logger/1.1.2:
     resolution: {integrity: sha512-Mr2zGZhaN52EKVk0ElWMqeYwMDQp4eEuiIQkYWzUuhupZRgPTpF8Bbp4AT46Sslq+BGlTTVdyUVNSWpPa8FEBA==}
+    dependencies:
+      express-http-context: 1.2.4
+      winston: 3.8.2
+      winston-daily-rotate-file: 4.7.1_winston@3.8.2
+    dev: false
+
+  /@sliit-foss/module-logger/1.1.3:
+    resolution: {integrity: sha512-+J6ZkSQ6LRkreqcKtMJzqC+TKQrQ/kqLsycpicfZaPZCi6tpzWJ66wCsmmJTQ8+h1fTqVrI6UBWhalPMYnJqmg==}
     dependencies:
       express-http-context: 1.2.4
       winston: 3.8.2
