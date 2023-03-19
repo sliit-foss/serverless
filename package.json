@@ -11,7 +11,7 @@
   "author": "SLIIT-FOSS",
   "license": "MIT",
   "dependencies": {
-    "@sliit-foss/functions": "2.0.1",
+    "@sliit-foss/functions": "2.0.2",
     "@sliit-foss/leaderboard": "1.0.3",
     "@sliit-foss/module-logger": "1.1.3"
   },
